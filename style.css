@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+.square {
+    flex: 1 0 auto;
+    background-color: purple;
+    height: 10px;
+    width: 10px;
+    border: solid black;
+}
